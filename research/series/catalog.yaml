@@ -1,5 +1,14 @@
 # Named series the falsifier predicates evaluate against.
 #
+# P123 capability confirmed 2026-09-22 against a third-party function reference
+# (github.com/cmoralesm/p123-claude-skill), NOT against official P123 docs,
+# which the egress proxy blocks. The functions and endpoints below are very
+# likely right; exact formula syntax must be smoke-tested on the first live
+# call. Constraints that shape ingest: data_universe takes asOfDts (plural) so
+# history backfills in one call; the API allows ONE request at a time per key,
+# shared with the dashboard; quota is consumption-based, so read cost and
+# quotaRemaining off every response rather than assuming a price.
+#
 # Every series MUST declare max_age_days. The predicate evaluator refuses to
 # evaluate any falsifier whose required series is staler than this. A run that
 # cannot get fresh data fails loudly; it never substitutes.
@@ -57,25 +66,52 @@ xlp:
 spx_new_highs:
   description: Count of S&P 500 members at a new 52-week high
   units: count
-  source: market_data
+  source: p123
   ingest: derived
   max_age_days: 4
+  derivation:
+    method: p123_universe_count
+    endpoint: data_universe
+    universe: SP500
+    formula: "Pct52WH >= -0.001"
+    alternate_formula: "Close(0) >= HighVal(252)"
+    note: >
+      Pct52WH is percent from the 52-week high. Verify sign convention on the
+      first live call and pin whichever formula matches a known date.
 
 spx_new_lows:
   description: Count of S&P 500 members at a new 52-week low
   units: count
-  source: market_data
+  source: p123
   ingest: derived
   max_age_days: 4
+  derivation:
+    method: p123_universe_count
+    endpoint: data_universe
+    universe: SP500
+    formula: "Pct52WL <= 0.001"
+    alternate_formula: "Close(0) <= LowVal(252)"
+    note: >
+      Benchmark against 2026-09-21, when 30 S&P members made new lows and 7
+      made new highs, before trusting the series.
 
 new_low_nonbond_share:
   description: >
     Share of the S&P 500 new-low list NOT in utilities, staples, telecom or
     real estate. Rising share means weakness is broadening past rate proxies.
   units: fraction
-  source: market_data
+  source: p123
   ingest: derived
   max_age_days: 7
+  derivation:
+    method: p123_universe_ratio
+    endpoint: data_universe
+    universe: SP500
+    formula: "Pct52WL <= 0.001"
+    group_by: SectorCode
+    note: >
+      P123 classifies with RBICS, not GICS, so the bond-proxy sector codes must
+      be pinned from a live SectorDescr pull rather than assumed from GICS.
 
 wti_us10y_corr_1m:
   description: One-month rolling correlation, front-month WTI to 10-year yield
@@ -83,6 +119,11 @@ wti_us10y_corr_1m:
   source: computed
   ingest: derived
   max_age_days: 7
+  # Needs no external feed: both inputs are already FRED auto-series.
+  derivation:
+    method: rolling_corr
+    inputs: [wti_front, us10y]
+    window_days: 21
 
 top10_weight:
   description: Combined index weight of the ten largest S&P 500 members
