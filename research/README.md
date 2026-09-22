@@ -75,16 +75,45 @@ requires: [us10y, xlu]
 A falsifier you cannot express this way is not a falsifier, it is a feeling.
 That friction is deliberate and lands at entry, when the thinking is cheap to fix.
 
-## Staleness and missing data
+## Staleness, and why coverage is reported
 
-Every series declares `max_age_days`. A run that cannot get data fresher than
-that **fails loudly and stops** — it never substitutes a worse source. The
-failure this guards against is a monitor quietly decaying into sentiment
-tracking while still looking like measurement.
+Every series declares `max_age_days`, measured on the latest **observation**,
+not on when it was last fetched. A series pulled this morning whose newest
+point is six months old is stale; measuring from retrieval is how a dead input
+passes for a live one.
 
-Nine of the nineteen catalogued series are `ingest: manual` today. Those are
-genuinely not free, and a predicate depending on one is only as live as its
-last manual update.
+A stale or missing input makes a falsifier **BLIND**, never "not tripped". The
+distinction between false and unknown is the point: a monitor that reports no
+trips while half its inputs are dead is worse than no monitor.
+
+```bash
+python3 research/coverage.py          # which theses can actually be monitored
+```
+
+Coverage reports three states per thesis — fully monitored, partial, or blind —
+and lists manual series that need a hand update. A thesis with no monitored
+falsifier cannot be falsified by this system whatever its register entry says,
+so it should either get its series ingested or move to `on_watch`.
+
+## Getting data in
+
+```bash
+python3 research/series/ingest.py --preflight   # are the sources reachable?
+python3 research/series/ingest.py               # every ingest: auto series
+python3 research/series/record.py <series> <value> <date> \
+    --source "<publisher>" --url "<page actually fetched>"
+```
+
+Six of nineteen series are `ingest: auto` (FRED and Stooq). Four are `derived`
+and need the breadth computation that does not exist yet. Nine are `manual`:
+forward EPS consensus, hyperscaler financials, index concentration and QSR
+traffic have no free automated feed, so they are hand-entered on a
+quarterly-ish rhythm. `record.py` requires both a source and a fetched URL, so
+the manual path does not weaken the provenance rule the automated feeds follow.
+
+**The source adapters are unverified against live APIs.** They were written in
+a container whose egress proxy blocks every market data host. Run
+`ingest.py --preflight` somewhere with network access before trusting them.
 
 ## Adding a thesis
 
@@ -115,7 +144,12 @@ URL does not go in — a search-result summary is not a source.
 
 ## Status
 
-Six theses seeded from the September 2026 breadth research, all `ungated`:
-no position may be taken on any of them until an expression is checked and
-gated. Predicate evaluation itself is stage 3 and is not built yet; the
-helpers above are the contract that evaluator will implement.
+Six theses seeded from the September 2026 breadth research. Five are
+`ungated` — no position may be taken until an expression is checked and gated.
+The oil thesis is `diagnostic`: it carries no position by design and
+permanently, because its value is arguing against acting on the Hindenburg
+cluster rather than expressing a trade.
+
+All six are currently **blind**: no series has been ingested, so nothing can be
+falsified yet. Predicate evaluation is stage 3; the helper table above is the
+contract that evaluator will implement.

@@ -4,9 +4,18 @@
   "title": "Thesis Register Entry",
   "type": "object",
   "required": [
-    "id", "statement", "mechanism", "status", "confidence",
-    "confidence_history", "falsifiers", "expression",
-    "horizon", "review", "authors_doubt", "created"
+    "id",
+    "statement",
+    "mechanism",
+    "status",
+    "confidence",
+    "confidence_history",
+    "falsifiers",
+    "expression",
+    "horizon",
+    "review",
+    "authors_doubt",
+    "created"
   ],
   "additionalProperties": false,
   "properties": {
@@ -15,7 +24,10 @@
       "pattern": "^[0-9]{4}-[0-9]{2}-[a-z0-9-]+$",
       "description": "YYYY-MM-slug. Must match the filename stem."
     },
-    "created": { "type": "string", "format": "date" },
+    "created": {
+      "type": "string",
+      "format": "date"
+    },
     "statement": {
       "type": "string",
       "minLength": 20,
@@ -28,20 +40,44 @@
     },
     "status": {
       "type": "string",
-      "enum": ["candidate", "live", "on_watch", "killed", "realised"]
+      "enum": [
+        "candidate",
+        "live",
+        "on_watch",
+        "killed",
+        "realised"
+      ]
     },
-    "confidence": { "type": "number", "minimum": 0.05, "maximum": 0.95 },
+    "confidence": {
+      "type": "number",
+      "minimum": 0.05,
+      "maximum": 0.95
+    },
     "confidence_history": {
       "type": "array",
       "minItems": 1,
       "items": {
         "type": "object",
-        "required": ["date", "value", "reason"],
+        "required": [
+          "date",
+          "value",
+          "reason"
+        ],
         "additionalProperties": false,
         "properties": {
-          "date": { "type": "string", "format": "date" },
-          "value": { "type": "number", "minimum": 0.05, "maximum": 0.95 },
-          "reason": { "type": "string", "minLength": 5 }
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "value": {
+            "type": "number",
+            "minimum": 0.05,
+            "maximum": 0.95
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 5
+          }
         }
       }
     },
@@ -51,10 +87,19 @@
       "maxItems": 4,
       "items": {
         "type": "object",
-        "required": ["id", "predicate", "requires", "registered", "rationale"],
+        "required": [
+          "id",
+          "predicate",
+          "requires",
+          "registered",
+          "rationale"
+        ],
         "additionalProperties": false,
         "properties": {
-          "id": { "type": "string", "pattern": "^f[0-9]+$" },
+          "id": {
+            "type": "string",
+            "pattern": "^f[0-9]+$"
+          },
           "predicate": {
             "type": "string",
             "minLength": 5,
@@ -63,30 +108,86 @@
           "requires": {
             "type": "array",
             "minItems": 1,
-            "items": { "type": "string" },
+            "items": {
+              "type": "string"
+            },
             "description": "Series names from series/catalog.yaml. Staleness is checked against these."
           },
-          "registered": { "type": "string", "format": "date" },
-          "rationale": { "type": "string", "minLength": 20 },
-          "tripped": { "type": ["string", "null"], "default": null }
+          "registered": {
+            "type": "string",
+            "format": "date"
+          },
+          "rationale": {
+            "type": "string",
+            "minLength": 20
+          },
+          "tripped": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          }
         }
       }
     },
     "expression": {
       "type": "object",
-      "required": ["status"],
+      "required": [
+        "status"
+      ],
       "additionalProperties": false,
       "properties": {
-        "status": { "type": "string", "enum": ["ungated", "gated", "held"] },
-        "instrument": { "type": ["string", "null"] },
-        "size_band": { "type": ["string", "null"] },
-        "funded_from": { "type": ["string", "null"] },
-        "liquidity_check": { "type": ["string", "null"] },
-        "note": { "type": ["string", "null"] }
+        "status": {
+          "type": "string",
+          "enum": [
+            "ungated",
+            "gated",
+            "held",
+            "diagnostic"
+          ],
+          "description": "ungated: not yet checked. gated: position sized and approved. held: currently held. diagnostic: informs decisions but carries no position, by design and permanently."
+        },
+        "instrument": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "size_band": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "funded_from": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "liquidity_check": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
       }
     },
-    "horizon": { "type": "string", "format": "date" },
-    "review": { "type": "string", "format": "date" },
+    "horizon": {
+      "type": "string",
+      "format": "date"
+    },
+    "review": {
+      "type": "string",
+      "format": "date"
+    },
     "authors_doubt": {
       "type": "string",
       "minLength": 40,
@@ -96,12 +197,21 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["url", "retrieved_at"],
+        "required": [
+          "url",
+          "retrieved_at"
+        ],
         "additionalProperties": false,
         "properties": {
-          "url": { "type": "string" },
-          "retrieved_at": { "type": "string" },
-          "note": { "type": "string" }
+          "url": {
+            "type": "string"
+          },
+          "retrieved_at": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          }
         }
       }
     }

@@ -36,14 +36,14 @@ falsifiers:
       The oil-to-rates transmission breaks down while the split widens, which
       severs the mechanism this thesis depends on.
 expression:
-  status: ungated
+  status: diagnostic
   instrument: null
   size_band: null
   funded_from: null
   liquidity_check: null
   note: >
-    Not directly investable as stated. Its value is diagnostic: it argues
-    against acting on the Hindenburg cluster as a standalone risk signal.
+    Permanently diagnostic, not unfinished. It carries no position; its value
+    is to argue against acting on the Hindenburg cluster as a standalone signal.
 horizon: 2027-01-31
 review: 2026-10-20
 authors_doubt: >

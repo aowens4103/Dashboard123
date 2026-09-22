@@ -231,7 +231,9 @@ def validate(register: Register | None = None) -> list[Finding]:
         # The investable-expression gate: an active thesis needs a real one.
         expression = doc.get("expression") or {}
         if doc.get("status") in ACTIVE_STATUSES:
-            if expression.get("status") == "ungated":
+            if expression.get("status") == "diagnostic":
+                pass  # deliberate end state: informs decisions, carries no position
+            elif expression.get("status") == "ungated":
                 findings.append(Finding(
                     tid, "warning",
                     "active but expression is ungated; no position may be taken"))
