@@ -1,0 +1,56 @@
+id: 2026-09-passive-plumbing
+created: 2026-09-21
+statement: >
+  A material part of the high/low split is flow mechanics rather than
+  collective judgement about the underlying businesses.
+mechanism: >
+  With the top ten names above 37 percent of index weight, index flows deliver
+  that share of every passive dollar to them regardless of fundamentals, and
+  systematic and vol-control strategies amplify the effect. Deletions run the
+  other way: Nike was removed from the S&P 100 on 21 September, the same day it
+  printed a new low. If flows are doing the work, the dispersion should track
+  concentration and index events rather than earnings revisions.
+status: on_watch
+confidence: 0.35
+confidence_history:
+  - date: 2026-09-21
+    value: 0.35
+    reason: >
+      Plausible and partly mechanical, but hard to separate from the rate and
+      oil channels without flow data the register does not yet have.
+falsifiers:
+  - id: f1
+    predicate: "latest('top10_weight') < 0.33 and latest('spx_new_lows') > latest('spx_new_highs')"
+    requires: [top10_weight, spx_new_lows, spx_new_highs]
+    registered: 2026-09-21
+    rationale: >
+      Concentration falls meaningfully yet the split persists, so flows into
+      the top of the index were not what was driving it.
+  - id: f2
+    predicate: "latest('capweight_eqweight_pe_premium') < 0.18"
+    requires: [capweight_eqweight_pe_premium]
+    registered: 2026-09-21
+    rationale: >
+      The cap-weight premium over equal-weight normalises toward its
+      pre-pandemic 13 percent, removing the valuation gap this rests on.
+expression:
+  status: ungated
+  instrument: null
+  size_band: null
+  funded_from: null
+  liquidity_check: null
+  note: >
+    Held on watch rather than live because it is the weakest evidenced of the
+    six and currently has no independent test that separates it from the rate
+    and oil theses.
+horizon: 2027-09-30
+review: 2026-10-20
+authors_doubt: >
+  This explains persistent concentration but not the timing of a split that is
+  about one quarter old. Index weights did not change materially in Q3, so a
+  slow structural feature is being asked to explain a fast change. That is
+  usually a sign the causal arrow is somewhere else.
+sources:
+  - url: https://www.rbcwealthmanagement.com/en-us/insights/the-great-narrowing-sp-500-concentration
+    retrieved_at: 2026-09-21
+    note: top-ten weight and the cap-weight versus equal-weight premium

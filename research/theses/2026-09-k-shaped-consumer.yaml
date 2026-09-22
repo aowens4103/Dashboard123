@@ -1,0 +1,62 @@
+id: 2026-09-k-shaped-consumer
+created: 2026-09-21
+statement: >
+  The consumer names on the new-low list are correctly priced for a genuinely
+  bifurcated US consumer, independent of any rate or oil channel.
+mechanism: >
+  Low-income quick-service traffic has fallen close to double digits for
+  roughly two years while higher-income traffic rose. Restaurant traffic was
+  negative in six of seven months in 2026 even as retail visits stayed
+  positive. Private label is taking record share and GLP-1 adoption is a
+  structural reduction in snack and beverage volume. Tariffs and fuel costs
+  fall hardest on the bottom of the income distribution. If this is right, the
+  affected names do not recover when rates fall, because nothing about their
+  demand problem is financial.
+status: live
+confidence: 0.65
+confidence_history:
+  - date: 2026-09-21
+    value: 0.65
+    reason: >
+      Multi-year traffic data and management commentary are consistent and
+      predate the rate move, so this is not a repackaging of the duration thesis.
+falsifiers:
+  - id: f1
+    predicate: "consecutive_above('qsr_traffic_low_income_yoy', 0.0, 3)"
+    requires: [qsr_traffic_low_income_yoy]
+    registered: 2026-09-21
+    rationale: >
+      Low-income traffic returns to growth for three consecutive months,
+      ending the demand story these valuations are pricing.
+  - id: f2
+    predicate: "consecutive_above('us10y', 4.75, 20) and drawdown('xlp', 60) < 0.03"
+    requires: [us10y, xlp]
+    registered: 2026-09-21
+    rationale: >
+      Staples recover while long rates stay high. That would mean the weakness
+      was a rate effect after all and this thesis added nothing.
+expression:
+  status: ungated
+  instrument: null
+  size_band: null
+  funded_from: null
+  liquidity_check: null
+  note: >
+    The one thesis of the six with a clean direct expression: avoid or
+    underweight low-income-exposed consumer names. Needs a screen definition
+    and a sizing band before it can be gated.
+horizon: 2027-06-30
+review: 2026-10-20
+authors_doubt: >
+  Every element of this was true and observable well before Q3 2026, so it
+  explains why these names are cheap but not why they broke to new lows this
+  quarter specifically. The timing almost certainly comes from the rate and
+  fuel channels, which makes this a valuation thesis wearing the clothes of a
+  catalyst thesis.
+sources:
+  - url: https://foodinstitute.com/foodservice/2026-restaurant-traffic-offers-clues-for-2027/
+    retrieved_at: 2026-09-21
+    note: 2026 restaurant traffic negative in six of seven months
+  - url: https://investments.metlife.com/insights/macro-strategy/the-k-shaped-economy-weighs-on-the-us-consumer/
+    retrieved_at: 2026-09-21
+    note: income-cohort divergence in spending

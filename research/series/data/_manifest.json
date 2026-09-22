@@ -1,0 +1,10 @@
+{
+  "top10_weight": {
+    "first_date": "2026-09-18",
+    "last_date": "2026-09-18",
+    "method": "hand-entered from https://www.rbcwealthmanagement.com/en-us/insights/the-great-narrowing-sp-500-concentration",
+    "retrieved_at": "2026-09-22T03:12:33+00:00",
+    "rows": 1,
+    "source": "manual:RBC Wealth Management"
+  }
+}

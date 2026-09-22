@@ -1,0 +1,63 @@
+id: 2026-09-ai-credit-financing
+created: 2026-09-21
+statement: >
+  Index leadership is shifting from cash-funded to debt-funded capital
+  spending precisely as the cost of debt rises, which is a credit risk to the
+  index rather than a breadth problem.
+mechanism: >
+  Hyperscalers are funding a 602bn capex year increasingly through debt and
+  off-balance-sheet structures. Alphabet turned free-cash-flow negative in Q2
+  2026 with long-term debt doubling to 98bn; the sector is projected to need
+  about 1.5tn in new issuance over three years; roughly 662bn of data-centre
+  leases sit off balance sheet. Circular vendor financing makes organic demand
+  hard to distinguish from self-funded demand. If funding costs rise while
+  returns on the buildout stay unproven, the marginal buyer of that debt
+  disappears and the capex cycle contracts abruptly.
+status: live
+confidence: 0.45
+confidence_history:
+  - date: 2026-09-21
+    value: 0.45
+    reason: >
+      Mechanism is well evidenced but timing is unknowable; S&P already flags
+      hyperscaler credit quality as gradually weakening.
+falsifiers:
+  - id: f1
+    predicate: "latest('tech_ig_oas') - latest('ig_oas') > 0.60"
+    requires: [tech_ig_oas, ig_oas]
+    registered: 2026-09-21
+    rationale: >
+      Tech investment-grade spreads blow out more than 60bp past the broad
+      index. This confirms rather than kills the thesis and should promote it
+      to the top of the register, so it is tracked as a trigger either way.
+  - id: f2
+    predicate: "latest('hyperscaler_fcf_ttm') > 0 and change('hyperscaler_lt_debt', 180) < 0.05"
+    requires: [hyperscaler_fcf_ttm, hyperscaler_lt_debt]
+    registered: 2026-09-21
+    rationale: >
+      Aggregate free cash flow returns to positive while debt growth stalls.
+      The buildout would then be self-funding again and the thesis is dead.
+expression:
+  status: ungated
+  instrument: null
+  size_band: null
+  funded_from: null
+  liquidity_check: null
+  note: >
+    Hardest of the six to express. Direct shorts are unsuitable; the plausible
+    forms are an underweight to cap-weighted tech, or credit exposure. Both
+    need sizing work before this can be gated.
+horizon: 2028-09-30
+review: 2026-10-20
+authors_doubt: >
+  This is the thesis most likely to be right about the mechanism and useless
+  about the timing. The 1999 analogue is instructive in the wrong direction:
+  after the December 1999 breadth divergence the Nasdaq rose another 25 percent
+  over eleven weeks. Acting early on this is materially costly.
+sources:
+  - url: https://www.axios.com/2026/09/11/ai-debt-hyperscalers-sp
+    retrieved_at: 2026-09-21
+    note: S&P on gradually weakening hyperscaler credit quality
+  - url: https://www.mufgamericas.com/sites/default/files/document/2025-12/AI_Chart_Weekly_12_19_Financing_the_AI_Supercycle.pdf
+    retrieved_at: 2026-09-21
+    note: issuance needs and off-balance-sheet lease commitments
