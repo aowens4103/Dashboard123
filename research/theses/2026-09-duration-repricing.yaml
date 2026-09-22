@@ -1,0 +1,62 @@
+id: 2026-09-duration-repricing
+created: 2026-09-21
+statement: >
+  The Q3 2026 breadth divergence is a repricing of duration, not a
+  deterioration in the fundamentals of the companies making new lows.
+mechanism: >
+  A 10-year yield above 5 percent mechanically re-rates any asset whose value
+  is a long stream of modest, stable cash flows. Utilities, staples, telecom
+  and real estate compete directly with a risk-free rate that has roughly
+  doubled. If this is the operative channel, the new-low list should be
+  dominated by rate proxies whose revenue growth is intact, and should empty
+  out when the long rate falls rather than when earnings recover.
+status: live
+confidence: 0.70
+confidence_history:
+  - date: 2026-09-21
+    value: 0.55
+    reason: initial entry from the breadth research
+  - date: 2026-09-22
+    value: 0.70
+    reason: >
+      PepsiCo at 52-week low with revenue growth 5.6 percent and 17x trailing;
+      McDonald's 6.3 percent and 20x. Multiple compression, not earnings loss.
+falsifiers:
+  - id: f1
+    predicate: "consecutive_below('us10y', 4.5, 20) and drawdown('xlu', 60) > 0.10"
+    requires: [us10y, xlu]
+    registered: 2026-09-21
+    rationale: >
+      Rates fall materially and stay down, but bond proxies do not recover.
+      If duration were the channel, this cannot happen.
+  - id: f2
+    predicate: "latest('new_low_nonbond_share') > 0.60"
+    requires: [new_low_nonbond_share]
+    registered: 2026-09-21
+    rationale: >
+      Weakness broadens well past rate-sensitive sectors, which means the
+      common factor is not the discount rate.
+expression:
+  status: ungated
+  instrument: null
+  size_band: null
+  funded_from: null
+  liquidity_check: null
+  note: >
+    No position until the expression is gated. Candidate direction is adding
+    to quality bond proxies on the view that the de-rating is rate-driven and
+    reverses with rates, but that requires a rate call this thesis does not make.
+horizon: 2027-03-31
+review: 2026-10-20
+authors_doubt: >
+  The weakest link is attributing the consumer names on the low list to rates
+  at all. McDonald's, Nike, Lowe's and AutoZone are explained by the K-shaped
+  consumer thesis with no rate channel required. If most of the low list is
+  consumer rather than bond proxy, this thesis is doing less work than it appears.
+sources:
+  - url: https://www.cnbc.com/2026/09/16/treasury-yield-bond-market-fed-decision.html
+    retrieved_at: 2026-09-21
+    note: 10-year above 5 percent, highest since 2007
+  - url: https://www.trefis.com/stock/spy/articles/615975/the-52-week-low-list-83-names-on-friday/2026-09-21
+    retrieved_at: 2026-09-21
+    note: PepsiCo and McDonald's fundamentals at the low

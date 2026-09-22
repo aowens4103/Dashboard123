@@ -1,0 +1,4 @@
+# Thesis register tooling only. The Streamlit dashboard does not need these;
+# see the repo-root requirements.txt for the app itself.
+PyYAML>=6.0
+jsonschema>=4.20

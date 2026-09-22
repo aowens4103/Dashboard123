@@ -1,0 +1,57 @@
+id: 2026-09-oil-single-factor
+created: 2026-09-21
+statement: >
+  Crude is generating both tails of the high/low split simultaneously, so the
+  breadth signal is a single-factor artifact rather than evidence of a
+  fragmenting market.
+mechanism: >
+  The US-Iran escalation around the Strait of Hormuz drove Brent above 94 and
+  WTI briefly past 100. That one variable creates new highs directly, through
+  refiner crack spreads, and new lows through two channels: input costs for
+  transport and manufacturing, and a low-income consumer whose discretionary
+  budget is absorbed by fuel and food. A high/low count cannot distinguish a
+  bimodal single-factor distribution from genuine market fragmentation, which
+  is precisely what it is reading here.
+status: live
+confidence: 0.65
+confidence_history:
+  - date: 2026-09-21
+    value: 0.65
+    reason: >
+      Refiners MPC and VLO on the new-high list while FedEx, McDonald's, Nike
+      and AutoZone are on the new-low list. WTI to 10-year correlation 0.96.
+falsifiers:
+  - id: f1
+    predicate: "consecutive_below('wti_front', 75, 15) and latest('spx_new_lows') > latest('spx_new_highs')"
+    requires: [wti_front, spx_new_lows, spx_new_highs]
+    registered: 2026-09-21
+    rationale: >
+      Crude falls hard and stays down, yet new lows still outnumber new highs.
+      The split would then have a cause other than oil.
+  - id: f2
+    predicate: "latest('wti_us10y_corr_1m') < 0.4 and latest('spx_new_lows') > 2 * latest('spx_new_highs')"
+    requires: [wti_us10y_corr_1m, spx_new_lows, spx_new_highs]
+    registered: 2026-09-21
+    rationale: >
+      The oil-to-rates transmission breaks down while the split widens, which
+      severs the mechanism this thesis depends on.
+expression:
+  status: ungated
+  instrument: null
+  size_band: null
+  funded_from: null
+  liquidity_check: null
+  note: >
+    Not directly investable as stated. Its value is diagnostic: it argues
+    against acting on the Hindenburg cluster as a standalone risk signal.
+horizon: 2027-01-31
+review: 2026-10-20
+authors_doubt: >
+  Oil explains the refiner highs cleanly but explains AMD and Warner Bros
+  Discovery not at all. If the new-high list is really three unrelated
+  idiosyncratic buckets rather than one oil-driven bucket, then crude accounts
+  for less of the split than claimed and the single-factor framing overreaches.
+sources:
+  - url: https://www.cnbc.com/2026/09/15/oil-us-treasurys-stocks-pressure.html
+    retrieved_at: 2026-09-21
+    note: WTI to 10-year rolling correlation at 0.96, tightest since 2019

@@ -1,0 +1,152 @@
+# Named series the falsifier predicates evaluate against.
+#
+# Every series MUST declare max_age_days. The predicate evaluator refuses to
+# evaluate any falsifier whose required series is staler than this. A run that
+# cannot get fresh data fails loudly; it never substitutes.
+#
+# ingest: auto     -> pulled by a scheduled script
+#         manual   -> updated by hand or by a quarterly research run
+#         derived  -> computed from other series in this catalog
+
+us10y:
+  description: US 10-year Treasury constant maturity yield, percent
+  units: percent
+  source: FRED
+  series_id: DGS10
+  ingest: auto
+  max_age_days: 4
+
+wti_front:
+  description: WTI front-month crude, USD per barrel
+  units: usd
+  source: FRED
+  series_id: DCOILWTICO
+  ingest: auto
+  max_age_days: 4
+
+hy_oas:
+  description: ICE BofA US High Yield option-adjusted spread
+  units: percent
+  source: FRED
+  series_id: BAMLH0A0HYM2
+  ingest: auto
+  max_age_days: 4
+
+ig_oas:
+  description: ICE BofA US Corporate option-adjusted spread
+  units: percent
+  source: FRED
+  series_id: BAMLC0A0CM
+  ingest: auto
+  max_age_days: 4
+
+xlu:
+  description: Utilities Select Sector SPDR, adjusted close
+  units: usd
+  source: market_data
+  ingest: auto
+  max_age_days: 4
+
+xlp:
+  description: Consumer Staples Select Sector SPDR, adjusted close
+  units: usd
+  source: market_data
+  ingest: auto
+  max_age_days: 4
+
+spx_new_highs:
+  description: Count of S&P 500 members at a new 52-week high
+  units: count
+  source: market_data
+  ingest: derived
+  max_age_days: 4
+
+spx_new_lows:
+  description: Count of S&P 500 members at a new 52-week low
+  units: count
+  source: market_data
+  ingest: derived
+  max_age_days: 4
+
+new_low_nonbond_share:
+  description: >
+    Share of the S&P 500 new-low list NOT in utilities, staples, telecom or
+    real estate. Rising share means weakness is broadening past rate proxies.
+  units: fraction
+  source: market_data
+  ingest: derived
+  max_age_days: 7
+
+wti_us10y_corr_1m:
+  description: One-month rolling correlation, front-month WTI to 10-year yield
+  units: correlation
+  source: computed
+  ingest: derived
+  max_age_days: 7
+
+top10_weight:
+  description: Combined index weight of the ten largest S&P 500 members
+  units: fraction
+  source: index_data
+  ingest: manual
+  max_age_days: 45
+
+capweight_eqweight_pe_premium:
+  description: >
+    Forward P/E of the cap-weighted S&P 500 over the equal-weighted index,
+    as a fraction. 0.30 means a 30 percent premium.
+  units: fraction
+  source: index_data
+  ingest: manual
+  max_age_days: 45
+
+mag7_eps_growth_fwd:
+  description: Consensus forward 12-month EPS growth, Magnificent 7
+  units: fraction
+  source: FactSet
+  ingest: manual
+  max_age_days: 100
+
+sp493_eps_growth_fwd:
+  description: Consensus forward 12-month EPS growth, S&P 500 ex-Magnificent 7
+  units: fraction
+  source: FactSet
+  ingest: manual
+  max_age_days: 100
+
+hyperscaler_capex_fwd_est:
+  description: Aggregate consensus next-12-month capex, top 5 hyperscalers, USD bn
+  units: usd_bn
+  source: sell_side_consensus
+  ingest: manual
+  max_age_days: 100
+
+hyperscaler_fcf_ttm:
+  description: Aggregate trailing-twelve-month free cash flow, top 5 hyperscalers, USD bn
+  units: usd_bn
+  source: filings
+  ingest: manual
+  max_age_days: 100
+
+hyperscaler_lt_debt:
+  description: Aggregate long-term debt, top 5 hyperscalers, USD bn
+  units: usd_bn
+  source: filings
+  ingest: manual
+  max_age_days: 100
+
+tech_ig_oas:
+  description: ICE BofA US Technology investment-grade option-adjusted spread
+  units: percent
+  source: index_data
+  ingest: manual
+  max_age_days: 14
+
+qsr_traffic_low_income_yoy:
+  description: >
+    Year-over-year US quick-service restaurant traffic growth, lowest income
+    cohort. Negative means the low-income consumer is still retrenching.
+  units: fraction
+  source: industry_data
+  ingest: manual
+  max_age_days: 100

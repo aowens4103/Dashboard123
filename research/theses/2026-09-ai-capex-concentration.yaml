@@ -1,0 +1,56 @@
+id: 2026-09-ai-capex-concentration
+created: 2026-09-21
+statement: >
+  Narrow leadership is the rational consequence of a 5 percent discount rate
+  rather than speculative mania, because only one earnings stream is growing
+  fast enough to outrun it.
+mechanism: >
+  When the hurdle rate rises, capital concentrates in whatever compounds
+  fastest. Magnificent 7 CY2026 EPS growth of 22.8 percent against 12.1 percent
+  for the other 493 is a large enough gap to justify the weighting on
+  fundamentals alone. If this is right, leadership persists while the earnings
+  gap persists and unwinds when it closes, with no bubble mechanics required.
+status: live
+confidence: 0.60
+confidence_history:
+  - date: 2026-09-21
+    value: 0.60
+    reason: >
+      FactSet consensus gap of roughly 10 points, tech sector EPS 32 percent
+      against 7.7 for utilities, hyperscaler capex 602bn up 36 percent.
+falsifiers:
+  - id: f1
+    predicate: "latest('mag7_eps_growth_fwd') - latest('sp493_eps_growth_fwd') < 0.03"
+    requires: [mag7_eps_growth_fwd, sp493_eps_growth_fwd]
+    registered: 2026-09-21
+    rationale: >
+      The earnings advantage collapses to near parity. Continued leadership
+      after that point would be something other than fundamentals.
+  - id: f2
+    predicate: "change('hyperscaler_capex_fwd_est', 90) < -0.10"
+    requires: [hyperscaler_capex_fwd_est]
+    registered: 2026-09-21
+    rationale: >
+      Consensus forward capex is cut by more than 10 percent in a quarter,
+      which breaks the demand assumption the earnings gap rests on.
+expression:
+  status: ungated
+  instrument: null
+  size_band: null
+  funded_from: null
+  liquidity_check: null
+  note: >
+    Cap-weighted exposure is already the default holding, so this thesis
+    mostly argues against a tactical move to equal-weight. Gating it means
+    sizing that decision explicitly rather than by inertia.
+horizon: 2027-06-30
+review: 2026-10-20
+authors_doubt: >
+  NVIDIA alone is roughly 65 percent of the Magnificent 7 growth rate, so this
+  is far less a story about seven companies than the framing suggests. Strip
+  NVIDIA and the Mag 6 grow 14.8 percent against 12.1 for the 493, a gap too
+  narrow to justify the concentration on these grounds.
+sources:
+  - url: https://insight.factset.com/excluding-nvidia-mag-7-companies-expected-to-report-lower-earnings-growth-than-other-493
+    retrieved_at: 2026-09-21
+    note: Mag 7 versus the other 493, and the ex-NVIDIA figure
