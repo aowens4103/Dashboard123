@@ -32,9 +32,20 @@ research/
 ## The entry gate
 
 ```bash
-python3 research/register.py        # validate every thesis
-cd research && python3 test_register.py   # test the gate itself
+python3 research/register.py     # validate every thesis
+python3 research/test_register.py    # the entry gate
+python3 research/test_series.py      # store and freshness
+python3 research/test_evaluate.py    # predicate evaluation
+python3 research/test_scenarios.py   # the real predicates, end to end
 ```
+
+`test_scenarios.py` drives the falsifiers actually committed in `theses/`,
+which catches what the unit tests cannot: a predicate that parses, passes the
+gate, and then turns out to be unevaluable or to mean something other than
+intended. One of its tests feeds every catalogued series a plausible value and
+asserts that no committed falsifier comes back `unknown` — a predicate that
+cannot evaluate even with all its inputs present is broken, and only running it
+reveals that.
 
 Errors block entry. Warnings do not. A thesis cannot enter the register if it:
 
@@ -74,6 +85,43 @@ requires: [us10y, xlu]
 
 A falsifier you cannot express this way is not a falsifier, it is a feeling.
 That friction is deliberate and lands at entry, when the thinking is cheap to fix.
+
+**Window semantics differ between helpers, deliberately.** `consecutive_below`
+and `consecutive_above` count **observations**, so 20 means 20 trading days on
+a daily series and 20 months on a monthly one. `change` and `drawdown` reach
+back **calendar days**, so they behave sensibly on sparse series like quarterly
+consensus estimates. Getting this backwards is the easiest way to write a
+predicate that means something other than intended.
+
+## Evaluation: three verdicts, never two
+
+```bash
+python3 research/detect.py            # evaluate every active falsifier
+python3 research/detect.py --record   # also stamp trips and log evidence
+```
+
+| Verdict | Meaning |
+| --- | --- |
+| `tripped` | The predicate is true on data we trust. The thesis is falsified |
+| `not_tripped` | The predicate is false on data we trust |
+| `unknown` | We cannot say, and must not guess |
+
+Everything that could make an answer unreliable lands on `unknown`: a missing
+series, a stale series, too little history for the window, a divide by zero, a
+non-boolean result, or a bug in a helper. **`unknown` is never `not_tripped`** —
+that collapse would mark a thesis safe on the strength of data nobody has, and
+it is the single failure this layer exists to prevent.
+
+`detect.py` exits non-zero on a new trip, so a scheduled run can notify on it.
+Detection is all it does: it never changes a thesis's status, confidence or
+falsifiers. A trip is a summons for the interpret run, not a verdict.
+
+`--record` stamps `tripped: <date>` on the falsifier and appends an evidence
+entry carrying the input values that caused it, so a trip is reconstructable
+from the repo alone. The stamp is a surgical text edit, not a YAML round-trip:
+re-dumping rewrites block scalars and turns `0.70` into `0.7`, which would make
+a one-field change a hundred-line diff and destroy the point of keeping this in
+git. There is a test pinning the stamp to exactly one changed line.
 
 ## Staleness, and why coverage is reported
 
@@ -150,6 +198,8 @@ The oil thesis is `diagnostic`: it carries no position by design and
 permanently, because its value is arguing against acting on the Hindenburg
 cluster rather than expressing a trade.
 
-All six are currently **blind**: no series has been ingested, so nothing can be
-falsified yet. Predicate evaluation is stage 3; the helper table above is the
-contract that evaluator will implement.
+All six are currently **blind**: no series has been ingested, so every
+falsifier evaluates to `unknown`. The evaluator is built and tested against
+fixtures — 59 tests pass — but it has never run against real market data,
+because every data host is blocked from the build environment. Treat "works on
+fixtures" as exactly that claim and no more.

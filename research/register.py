@@ -94,7 +94,12 @@ def load_theses() -> dict:
             doc = _isoformat_dates(yaml.safe_load(fh))
         if not doc:
             raise RegisterError(f"{path.name} is empty")
-        doc["_path"] = str(path.relative_to(ROOT.parent))
+        try:
+            doc["_path"] = str(path.relative_to(ROOT.parent))
+        except ValueError:
+            # A theses dir outside the repo (tests, a scratch copy) is fine;
+            # the path is only used for reporting and for locating the file.
+            doc["_path"] = str(path)
         doc["_stem"] = path.stem
         theses[doc.get("id", path.stem)] = doc
     return theses
