@@ -106,7 +106,7 @@ Legend: **Confirmed** = in a public source (linked in Sources). **Not public** =
 
 **Goldman Sachs Custody Solutions (formerly Folio Investments)**
 - Won InvestmentNews Custodian of the Year (June 2026). It targets "growth-focused" and established RIAs.
-- AUM minimum and fees: **not public.**
+- AUM minimum: **not published, but its contact form's lowest AUM choice is "$100–250 Million"** (checked 9/23/2026), which suggests about a $100M floor. Fees: **not public.**
 
 ---
 
@@ -164,6 +164,25 @@ Legend: **Confirmed** = in a public source (linked in Sources). **Not public** =
 | **Raymond James RCS** | [Your Team](https://www.raymondjames.com/advisor-opportunities/affiliation-options/independent-ria-custody-services/your-team) | **Alan Brum** (AZ, CT, HI, MA, ME, NH, NJ, NM, NV, NY, PA, RI, VT), alan.brum@raymondjames.com, 732-266-7390. **Already emailed 9/23.** |
 | **SEI** | [SEI for RIAs](https://www.seic.com/financial-advisors/who-we-serve/rias) · [Dedicated RIA service](https://www.seic.com/financial-advisors/custodian-revolution/dedicated-ria-service) | Not published |
 | **Goldman Sachs Custody Solutions** | [Contact us](https://www.goldmansachs.com/what-we-do/ficc-and-equities/custody-solutions/contact_us) · [Established RIAs](https://www.goldmansachs.com/what-we-do/ficc-and-equities/custody-solutions/who-we-serve/established-rias) | Not published |
+
+### 5b. Direct phone numbers (for calling instead of waiting)
+
+*Numbers were read directly from each firm's live contact page on 9/23/2026, unless marked otherwise. "Outreach 9/23" shows what has already gone to each firm, so you can mention it on the call.*
+
+| Custodian | Call | Direct person (if any) | Outreach 9/23 |
+|---|---|---|---|
+| **Schwab Advisor Services** | 877-687-4085 (contact page) | **Michael Goldman**, Business Development Associate: **407-608-9339**, michael.goldman@schwab.com. Schwab's locator assigned him for zip 11232 and $0–12M. | Form sent to Michael Goldman |
+| **Altruist** | 888-510-4660 (advisor support, Mon–Fri 9am–8pm ET) | Sales is by form only. Ask support to route you to sales. | Form sent |
+| **Interactive Brokers** | +1 475 334 4660 | **Declan Mulholland**, Sales Representative (New York), dmulholland@interactivebrokers.com. Manager: Michael J. Domka, Managing Director, Sales, +1 312 542 6924. | Email pending |
+| **Axos Advisor Services** | 866-776-0218 | sales@axosadvisorservices.com | Email pending |
+| **TradePMR** | 888-723-3767 | Not published | Form sent |
+| **Betterment Advisor Solutions** | 646-809-4181 (sales) | Not published | Form sent |
+| **SEI Private Trust Company** | 800-734-1003 | Not published | Form sent |
+| **BNY Pershing** | 800-445-4467 · 201-413-3333 | Not published | Form sent |
+| **Fidelity** | None published on its advisor contact pages | Assigned after the form | Form sent |
+| **Raymond James RCS** | 732-266-7390 | **Alan Brum**, Business Development Consultant (NY/NJ/PA/CT/MA and others), alan.brum@raymondjames.com | B/D email sent. Ask about custody on the same thread. |
+| **LPL Financial** | None published; recruiter form only | Assigned by region | Recruiter form sent (B/D). Ask about custody when they call. |
+| **Goldman Sachs Custody Solutions** | 833-983-4727 · 888-230-5635 (both listed on its RIA contact page) | Not published | Skipped. Its form's lowest AUM choice is $100–250M, which suggests about a $100M floor. |
 
 ---
 
