@@ -141,6 +141,30 @@ Legend: **Confirmed** = in a public source (linked). **Not public** = you have t
 
 ---
 
+## 5a. Who to contact at each firm (to get grids, minimums, and fees)
+
+*These pages and numbers came from search results on 9/23/2026 and are listed as the firms publish them. Our tools couldn't load the firm websites directly, so confirm on the page before calling.*
+
+| Firm | Page to start the conversation | Phone / email | Named contact (if published) |
+|---|---|---|---|
+| **PKS Investments** (Binah Capital) | [pksinvest.com/contact](https://www.pksinvest.com/contact/) · [Management team](https://www.pksinvest.com/who-we-are/management-team/) · [Parent: binahcap.com](https://www.binahcap.com/) | 800-801-6851 · 518-436-3536 · 80 State St, Albany, NY | Director of Business Development ("Jason") is listed on the management page |
+| **Mutual Group / Mutual Securities** | [Contact Us](https://mutual.group/contact-us/) · [Advisor Registration](https://mutual.group/advisor-registration/) · [Hybrid (friendly B/D) page](https://mutual.group/hybrid/) | 800-200-6205 | Not published. *Different companies:* "themutualgroup.com" and Mutual of Omaha. |
+| **M.S. Howells & Co.** | [Hybrid RIA page](https://www.mshowells.com/hybrid-ria) · [Marketing materials](https://www.mshowells.com/hybrid-ria-marketing-materials) | 480-563-2016 (hybrid RIA) · 480-563-2000 (main) | Katrina Santa Maria, kat@mshowells.com (hybrid RIA) · Bob Stuber, rstuber@mshowells.com |
+| **Private Client Services (PCS)** | [Join Us](https://pcsbd.net/joining-pcs/) · [Joining FAQ](https://pcsbd.net/joining-pcs/qa/) · [Contact Us](https://pcsbd.net/contact-us/) | 800-966-9347 (Louisville, KY) | Not published |
+| **Geneos Wealth Management** | [Contact](https://geneoswealth.com/contact.html) · [Why Geneos](https://www.geneoswealth.com/why-geneos.html) | 888-812-5043 · 303-785-8470 | Austin Gross (prospective reps) |
+| **Arete Wealth** | [For Advisors](https://aretewealth.com/for-advisors/) (has an advisor interest form) | 312-940-3684 (Chicago) | Recruiting email is listed on the For Advisors page |
+| **LPL Financial** | [Find your recruiter](https://www.lpl.com/join-lpl/establishing-your-business/your-recruiter.html) · [RIA / Hybrid RIA models](https://www.lpl.com/join-lpl/establishing-your-business/business-model-options/registered-investment-advisor.html) · [Fee schedules](https://www.lpl.com/disclosures/fee-schedules.html) | Recruiter form on the page | Assigned by region |
+| **Cetera** | [Join Us](https://cetera.com/join-us) · [RIA Blueprint](https://cetera.com/ria-blueprint) · [Contact](https://cetera.com/contact-us) | Cetera Advisors 888-406-2444 · Cetera Wealth Services 888-406-5444 | Assigned via Join Us form |
+| **Osaic** | [Contact us](https://osaic.com/contact) · [Independence](https://osaic.com/independence) | AdvisorEngagement@Osaic.com | Assigned by team |
+| **Kestra Financial** | [Contact Us](https://www.kestrafinancial.com/contact-us) | 800-508-7627 · advisorrecruiting@kestrafinancial.com | Regional Business Development Consultants (Ben Marks, Dave Sawan, Austin Shives, Doug Wallace; added 3/2026) |
+| **Cambridge Investment Research** | [Contact Cambridge](https://www.joincambridge.com/about-cambridge/contact-cambridge/) · [Independent RIA](https://www.joincambridge.com/whats-your-journey/independent-ria/) | 877-688-2369 · TheFeeExperts@cir2.com · 833-741-0502 | Lynn Brones (FVP, Business Development) |
+| **Raymond James (RIA & Custody Services)** | [Your Team (business development consultants)](https://www.raymondjames.com/advisor-opportunities/affiliation-options/independent-ria-custody-services/your-team) · [Start your RIA](https://www.raymondjames.com/advisor-opportunities/affiliation-options/independent-ria-custody-services/start-your-ria) | Listed on the Your Team page | Business development consultants by region |
+| **Valmark Financial Group** | [Contact](https://valmarkfg.com/site/contact/) · [Member Firms](https://valmarkfg.com/site/member-firms/) | 800-765-5201 · 330-701-5629 (Akron, OH) | Not published |
+
+**Before you call, check each firm's record:** Look up [FINRA BrokerCheck](https://brokercheck.finra.org/) for disciplinary and arbitration history, and the [SEC IAPD](https://adviserinfo.sec.gov/) for its RIA. Also ask for the firm's **Form CRS** and **Reg BI disclosures**, which show revenue sharing and account fees.
+
+---
+
 ## 6. Suggested path (general info, not legal advice)
 
 1. List your current B/D revenue by source (trails vs. new commissions) and which products truly need a B/D.
