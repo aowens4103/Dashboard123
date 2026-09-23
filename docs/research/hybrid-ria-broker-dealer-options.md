@@ -148,7 +148,7 @@ Legend: **Confirmed** = in a public source (linked). **Not public** = you have t
 | Firm | Page to start the conversation | Phone / email | Named contact (if published) |
 |---|---|---|---|
 | **PKS Investments** (Binah Capital) | [pksinvest.com/contact](https://www.pksinvest.com/contact/) · [Management team](https://www.pksinvest.com/who-we-are/management-team/) · [Parent: binahcap.com](https://www.binahcap.com/) | 800-801-6851 · 518-436-3536 · 80 State St, Albany, NY | Director of Business Development ("Jason") is listed on the management page |
-| **Mutual Group / Mutual Securities** | [Contact Us](https://mutual.group/contact-us/) · [Advisor Registration](https://mutual.group/advisor-registration/) · [Hybrid (friendly B/D) page](https://mutual.group/hybrid/) | 800-200-6205 | Not published. *Different companies:* "themutualgroup.com" and Mutual of Omaha. |
+| **Mutual Group / Mutual Securities** | [Contact Us](https://mutual.group/contact-us/) · [Hybrid (friendly B/D) page](https://mutual.group/hybrid/) *(its "Advisor Registration" page is for an event, not recruiting)* | 800-200-6205 | Not published. *Different companies:* "themutualgroup.com" and Mutual of Omaha. |
 | **M.S. Howells & Co.** | [Hybrid RIA page](https://www.mshowells.com/hybrid-ria) · [Marketing materials](https://www.mshowells.com/hybrid-ria-marketing-materials) | 480-563-2016 (hybrid RIA) · 480-563-2000 (main) | Katrina Santa Maria, kat@mshowells.com (hybrid RIA) · Bob Stuber, rstuber@mshowells.com |
 | **Private Client Services (PCS)** | [Join Us](https://pcsbd.net/joining-pcs/) · [Joining FAQ](https://pcsbd.net/joining-pcs/qa/) · [Contact Us](https://pcsbd.net/contact-us/) | 800-966-9347 (Louisville, KY) | Not published |
 | **Geneos Wealth Management** | [Contact](https://geneoswealth.com/contact.html) · [Why Geneos](https://www.geneoswealth.com/why-geneos.html) | 888-812-5043 · 303-785-8470 | Austin Gross (prospective reps) |
@@ -160,6 +160,38 @@ Legend: **Confirmed** = in a public source (linked). **Not public** = you have t
 | **Cambridge Investment Research** | [Contact Cambridge](https://www.joincambridge.com/about-cambridge/contact-cambridge/) · [Independent RIA](https://www.joincambridge.com/whats-your-journey/independent-ria/) | 877-688-2369 · TheFeeExperts@cir2.com · 833-741-0502 | Lynn Brones (FVP, Business Development) |
 | **Raymond James (RIA & Custody Services)** | [Your Team (business development consultants)](https://www.raymondjames.com/advisor-opportunities/affiliation-options/independent-ria-custody-services/your-team) · [Start your RIA](https://www.raymondjames.com/advisor-opportunities/affiliation-options/independent-ria-custody-services/start-your-ria) | Listed on the Your Team page | Business development consultants by region |
 | **Valmark Financial Group** | [Contact](https://valmarkfg.com/site/contact/) · [Member Firms](https://valmarkfg.com/site/member-firms/) | 800-765-5201 · 330-701-5629 (Akron, OH) | Not published |
+
+### How to reach each firm: email vs. web form vs. phone
+
+**A. Published email address.** Send from admin@mad4planning.com in Roundcube, so the email lands in your Sent folder as a business record.
+
+| Firm | Email to use |
+|---|---|
+| M.S. Howells & Co. | kat@mshowells.com (Katrina Santa Maria, hybrid RIA) |
+| Arete Wealth | Recruiting@AreteWealth.com (an interest form is also available) |
+| Osaic | AdvisorEngagement@Osaic.com |
+| Kestra Financial | advisorrecruiting@kestrafinancial.com |
+| Cambridge | TheFeeExperts@cir2.com |
+
+**B. Web form only.** No recruiting email is published. Paste the short form version of the message into the form, and save a copy (screenshot or PDF) because it won't appear in your Sent folder.
+
+| Firm | Form |
+|---|---|
+| PKS Investments | [pksinvest.com/contact](https://www.pksinvest.com/contact/). A Deployment@pksinvest.com address also appears, but it looks like an operations mailbox, not recruiting. |
+| Mutual Group | [mutual.group/contact-us](https://mutual.group/contact-us/) |
+| Private Client Services | [pcsbd.net/joining-pcs](https://pcsbd.net/joining-pcs/) (confidential "Join Us" form) |
+| LPL Financial | [Find your recruiter](https://www.lpl.com/join-lpl/establishing-your-business/your-recruiter.html) |
+| Cetera | [cetera.com/join-us](https://cetera.com/join-us) |
+| Valmark | [valmarkfg.com/site/contact](https://valmarkfg.com/site/contact/) |
+| Raymond James (RCS) | [Your Team page](https://www.raymondjames.com/advisor-opportunities/affiliation-options/independent-ria-custody-services/your-team). Pick the consultant for your region (e.g., Scott D. Steele is listed for RIA and hybrid RIA custody). |
+
+**C. Phone first.** No confirmed form or email was found.
+
+| Firm | Call |
+|---|---|
+| Geneos Wealth Management | Austin Gross, 888-812-5043 (prospective reps). Ask for his email on the call and follow up in writing. |
+
+Every firm in lists A and B also has a phone line (see the table above) if a form or email goes unanswered for about a week.
 
 **Before you call, check each firm's record:** Look up [FINRA BrokerCheck](https://brokercheck.finra.org/) for disciplinary and arbitration history, and the [SEC IAPD](https://adviserinfo.sec.gov/) for its RIA. Also ask for the firm's **Form CRS** and **Reg BI disclosures**, which show revenue sharing and account fees.
 
