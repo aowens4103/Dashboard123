@@ -173,8 +173,8 @@ Legend: **Confirmed** = in a public source (linked in Sources). **Not public** =
 |---|---|---|---|
 | **Schwab Advisor Services** | 877-687-4085 (contact page) | **Michael Goldman**, Business Development Associate: **407-608-9339**, michael.goldman@schwab.com. Schwab's locator assigned him for zip 11232 and $0–12M. | Form sent to Michael Goldman |
 | **Altruist** | 888-510-4660 (advisor support, Mon–Fri 9am–8pm ET) | Sales is by form only. Ask support to route you to sales. | Form sent |
-| **Interactive Brokers** | +1 475 334 4660 | **Declan Mulholland**, Sales Representative (New York), dmulholland@interactivebrokers.com. Manager: Michael J. Domka, Managing Director, Sales, +1 312 542 6924. | Email pending |
-| **Axos Advisor Services** | 866-776-0218 | sales@axosadvisorservices.com | Email pending |
+| **Interactive Brokers** | +1 475 334 4660 | **Declan Mulholland**, Sales Representative (New York), dmulholland@interactivebrokers.com. Manager: Michael J. Domka, Managing Director, Sales, +1 312 542 6924. | Email sent to Declan |
+| **Axos Advisor Services** | 866-776-0218 | sales@axosadvisorservices.com | Email sent |
 | **TradePMR** | 888-723-3767 | Not published | Form sent |
 | **Betterment Advisor Solutions** | 646-809-4181 (sales) | Not published | Form sent |
 | **SEI Private Trust Company** | 800-734-1003 | Not published | Form sent |
