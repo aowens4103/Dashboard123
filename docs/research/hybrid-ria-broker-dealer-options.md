@@ -171,9 +171,29 @@ Legend: **Confirmed** = in a public source (linked). **Not public** = you have t
 2. **Insurance-only via a BGA/IMO.** Fixed and indexed annuities and life/LTC/DI pay commissions under your insurance license, with no B/D required. Your RIA's ADV must disclose the conflict.
 3. **Move commission assets to advisory**, or to advisory/I-share VAs, at your RIA custodian. Check suitability for each client, since a fee on buy-and-hold assets may not be in their best interest.
 4. **Sell or transfer the trail book.** For example, PKS will buy or maintain commission books for reps going fee-only.
+5. **A fee-only conversion program that keeps your legacy variable annuities.** You drop FINRA registration and bill an advisory fee on the existing contracts instead of collecting trails. Two options:
+   - **Mutual Group "Evolve":** covers directly held mutual funds, VAs, and VUL. You go FINRA-free with no B/D affiliation. Includes Orion reporting and an insurance desk. Pricing not published ([mutual.group/evolve](https://mutual.group/evolve/)).
+   - **DPL Financial Partners "Breakaway Accelerator":** its Annuity Review tool flags which contracts to exchange into commission-free products and which to keep. Contracts you keep can move from your current B/D, apparently to DPL's own B/D, Johnstone Brokerage. DPL also offers commission-free annuities and insurance from 20+ carriers. Membership starts at **$1,000/year per firm**. Trail handling is not published. See `dpl-financial-partners.md`.
+   - Altruist's Daniel Vazquez suggested this route if commissions are well under **25–30% of revenue**. He estimated roughly a 10% "haircut" versus commission payouts; that is his estimate, not a published figure.
 
 **Rule of thumb:** If your remaining B/D revenue (trails + new commissions) is less than about **$15–25k/year**, the costs usually eat most of it. Those costs are B/D annual fees, FINRA/state registrations, E&O, compliance time, and dual supervision of advertising and correspondence. Fee-only + MQP is often cleaner. Above that level, a friendly B/D with no override is usually worth it.
 *(The threshold is a rough estimate from typical friendly-B/D cost structures, not a published figure. Run your own numbers with real quotes.)*
+
+---
+
+## 4a. Friendly B/D payout comparison (researched 9/27/2026)
+
+| | Mutual Group | M.S. Howells | PCS | PKS |
+|---|---|---|---|---|
+| Commission payout | **85–92%**, "less BD fees" | **80% / 82.5% / 85%** at $150k / $250k / $500k production; **negotiated under $150k** | **Not published**; custom per rep | Not published |
+| Override on your RIA | None | None (100% to you) | None (per positioning) | None ("no haircut") |
+| Fixed fees per rep | Monthly tech/admin/insurance fees exist; amount not published | **About $7,800/yr** ($300/mo compliance + $350/mo E&O), plus FINRA, state, and audit | **About $1,850/yr** ($1,600 E&O, 2022 figure, + $250 audit); **no affiliation fee** | Not published |
+| Ticket charges | Not published | Published (equities $0.0075/sh, $25 min; mutual funds $30; bonds $30 + $1/$1k) | Not published | Not published |
+| Clearing | Not stated | Pershing | Pershing | Fidelity |
+| Fee-only exit program | **Evolve** | — | — | Will buy or maintain a commission book |
+| Named contact | Debra Shannon, SVP Bus. Dev., 800-200-6205 | Katrina Santa Maria, 480-563-2016 | **Steve Higdon, CDO, 502-797-5207** | Jason Day, SVP Bus. Dev., 800-801-6851 |
+
+**How to read it:** PCS takes its cut from commissions, with almost no fixed fees. M.S. Howells and Mutual charge fixed monthly fees and pay higher percentages. With low or occasional commission revenue, low fixed fees (PCS) or a fee-only exit (Evolve or DPL) likely nets more. At higher production, a published high grid (Mutual or M.S. Howells) can win. You need real quotes from PCS, Mutual, and PKS to finish the comparison.
 
 ---
 
@@ -198,10 +218,10 @@ Legend: **Confirmed** = in a public source (linked). **Not public** = you have t
 
 | Firm | Page to start the conversation | Phone / email | Named contact (if published) |
 |---|---|---|---|
-| **PKS Investments** (Binah Capital) | [pksinvest.com/contact](https://www.pksinvest.com/contact/) · [Management team](https://www.pksinvest.com/who-we-are/management-team/) · [Parent: binahcap.com](https://www.binahcap.com/) | 800-801-6851 · 518-436-3536 · 80 State St, Albany, NY | Director of Business Development ("Jason") is listed on the management page |
-| **Mutual Group / Mutual Securities** | [Contact Us](https://mutual.group/contact-us/) · [Hybrid (friendly B/D) page](https://mutual.group/hybrid/) *(its "Advisor Registration" page is for an event, not recruiting)* | 800-200-6205 | Not published. *Different companies:* "themutualgroup.com" and Mutual of Omaha. |
-| **M.S. Howells & Co.** | [Hybrid RIA page](https://www.mshowells.com/hybrid-ria) · [Marketing materials](https://www.mshowells.com/hybrid-ria-marketing-materials) | 480-563-2016 (hybrid RIA) · 480-563-2000 (main) | Katrina Santa Maria, kat@mshowells.com (hybrid RIA) · Bob Stuber, rstuber@mshowells.com |
-| **Private Client Services (PCS)** | [Join Us](https://pcsbd.net/joining-pcs/) · [Joining FAQ](https://pcsbd.net/joining-pcs/qa/) · [Contact Us](https://pcsbd.net/contact-us/) | 800-966-9347 (Louisville, KY) | Not published |
+| **PKS Investments** (Binah Capital) | [pksinvest.com/contact](https://www.pksinvest.com/contact/) · [Management team](https://www.pksinvest.com/who-we-are/management-team/) · [Parent: binahcap.com](https://www.binahcap.com/) | 800-801-6851 · 518-436-3536 · 80 State St, Albany, NY | **Jason Day**, SVP & Director of Business Development (management page; no direct line; ask for him at 800-801-6851). Not yet contacted. |
+| **Mutual Group / Mutual Securities** | [Contact Us](https://mutual.group/contact-us/) · [Hybrid (friendly B/D) page](https://mutual.group/hybrid/) *(its "Advisor Registration" page is for an event, not recruiting)* | 800-200-6205 | **Debra Shannon**, SVP Business Development (leadership page; ask for her at the main line). Form submitted 9/23. *Different companies:* "themutualgroup.com" and Mutual of Omaha. |
+| **M.S. Howells & Co.** | [Hybrid RIA page](https://www.mshowells.com/hybrid-ria) · [Marketing materials](https://www.mshowells.com/hybrid-ria-marketing-materials) | 480-563-2016 (hybrid RIA) · 480-563-2000 (main) · 646-330-5949 (NY office, 1120 Ave. of the Americas) | Katrina Santa Maria, kat@mshowells.com (hybrid RIA; emailed 9/23). Bob Stuber's email is from the original search and is not on the current site. |
+| **Private Client Services (PCS)** | [Join Us](https://pcsbd.net/joining-pcs/) · [Joining FAQ](https://pcsbd.net/joining-pcs/qa/) · [Contact Us](https://pcsbd.net/contact-us/) | 800-966-9347 · 502-451-0600 (Louisville, KY) | **Steve Higdon**, Chief Development Officer, **502-797-5207** (direct line published on the Join Us page). Form submitted 9/23. |
 | **Geneos Wealth Management** | [Contact](https://geneoswealth.com/contact.html) · [Why Geneos](https://www.geneoswealth.com/why-geneos.html) | 888-812-5043 · 303-785-8470 | Austin Gross (prospective reps) |
 | **Arete Wealth** | [For Advisors](https://aretewealth.com/for-advisors/) (has an advisor interest form) | 312-940-3684 (Chicago) | Recruiting email is listed on the For Advisors page |
 | **LPL Financial** | [Find your recruiter](https://www.lpl.com/join-lpl/establishing-your-business/your-recruiter.html) · [RIA / Hybrid RIA models](https://www.lpl.com/join-lpl/establishing-your-business/business-model-options/registered-investment-advisor.html) · [Fee schedules](https://www.lpl.com/disclosures/fee-schedules.html) | Recruiter form on the page | Assigned by region |
