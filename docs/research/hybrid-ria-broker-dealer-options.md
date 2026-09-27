@@ -60,7 +60,17 @@ Legend: **Confirmed** = in a public source (linked). **Not public** = you have t
 **Mutual Securities / Mutual Group**
 - Model: Friendly B/D for hybrid RIAs, running for ~20 years.
 - **Commission payout: 85%–92%** (confirmed). **No override on fee business run through your RIA** (confirmed).
-- Minimums / annual fees: **Not public.**
+- Its own comparison page describes Hybrid compensation as "**85%+ GDC payout less BD fees**" (confirmed). The grid breakpoints are not published.
+- **Rep fees: amounts not published, but they exist.** Mutual Securities' audited FY2025 financial statement (SEC Form X-17A-5, year ended 6/30/2025) shows **recurring monthly fees charged to reps for technology, administrative, and insurance costs**, taken out of commission statements, totaling about **$1.44M** firm-wide (confirmed). Ask for the per-rep schedule.
+- Minimums: **not public.**
+- **"Evolve" fee-only program (important for your legacy book):** Mutual's own alternative to staying hybrid (confirmed):
+  - You **go fee-only, drop your FINRA registration and B/D affiliation**, and keep servicing your clients' existing **direct-held mutual funds, variable annuities, and variable universal life** for an **advisory fee** instead of commissions and trails.
+  - Mutual's Evolve team handles the paperwork and asset tracking. It includes an Evolve portal, Orion reporting, a dedicated service team, and an Insurance Solutions Desk.
+  - Evolve pricing is **not published**.
+  - It works like DPL's Breakaway Accelerator (see the DPL doc). Both let you leave the B/D world without abandoning legacy VAs. Get both quotes.
+- Separate company from "themutualgroup.com" and from Mutual of Omaha.
+- Contact: main line **800-200-6205**. Ask for **Debra Shannon**, SVP of Business Development. Form submitted 9/23.
+- Ask: grid breakpoints at your production level; the monthly technology/admin/E&O fee per rep; whether trails pay the same; any minimum; **Evolve pricing** and whether Evolve can bill advisory fees on your VAs while you custody at Altruist or another custodian; changes under Rule 3290.
 
 **M.S. Howells & Co.**
 - Model: Friendly B/D. **No override on fee-based business** through your hybrid RIA, and "minimal fees" (confirmed). Clears through **Pershing**.
