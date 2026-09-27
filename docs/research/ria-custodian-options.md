@@ -59,6 +59,54 @@ Legend: **Confirmed** = in a public source (linked in Sources). **Not public** =
 - Scale: $100B+ in RIA assets and about 3,600 advisors.
 - Best fit: cost-sensitive, ETF, options, or international books. The service model is more self-directed than Schwab's or Altruist's.
 
+*Update from Declan Mulholland (Institutional Sales, 475-334-4660), who spoke with Ardis and followed up by email on 9/23/2026:*
+
+**Costs (confirmed by IBKR):**
+- **No** account-opening, custody, or inactivity fees, and no commission minimums. It's "pay-as-you-go": commissions, any margin interest, and optional market-data subscriptions.
+- Advisors keep **100% of their advisory fees**. IBKR doesn't share revenue and has no corporate advisory arm competing for your clients.
+
+**Two pricing plans, chosen per advisor:**
+
+| | IBKR Pro | IBKR Lite |
+|---|---|---|
+| U.S. stocks and ETFs | $0.005/share bundled, or $0.0035 down to $0.0005/share unbundled by volume tier | $0 (routed to wholesalers) |
+| Options | $0.65 down to $0.075 per contract | |
+| Corporate bonds | 0.10% of face on the first $10k, then 0.025% | |
+| Treasuries | 0.002% on the first $1M, then 0.0001% | |
+| Interest on client cash | Fed overnight rate minus 0.25–0.50%, on settled balances above $10k | 1% lower than Pro |
+| Margin rate | Fed overnight rate plus 0.50–1.50%, tiered | 1% higher than Pro |
+| Execution | SMART routing with price improvement | Via wholesalers |
+
+- **Market data:** optional, at exchange cost with no markup. Subscriptions are per user, billed monthly in advance, and not prorated.
+- **Securities lending:** opt-in; income is split 50/50 with the client.
+
+**Platform:** model portfolios, tax-loss harvesting, pre-trade allocation, advisor portal with client account templates, PortfolioAnalyst reporting, the free TWS trading platform (with Risk Navigator), a mobile app, and multi-currency accounts where the client picks a base currency.
+
+**Service:** a dedicated institutional service team in Greenwich, CT and New York (8am–6pm ET, with after-hours overflow from Hong Kong and Switzerland), a named sales contact for escalations, and an onboarding and training team.
+
+**Financial strength:** IBG LLC has more than $20B in equity capital and is about 74% employee-owned (26% by the public company).
+
+**How to apply (advisor account):**
+1. Create a username (it can't be changed later).
+2. Confirm your email and choose **Professional Advisor**.
+3. Upload 4 documents:
+   - proof of your principal place of business (bank statement or utility bill)
+   - a signatory ID (passport or driver's license)
+   - IBKR's certification form, signed in ink
+   - an operating agreement or articles of incorporation
+
+**Still open (not answered in his email):**
+- IRA annual, closing, ACAT-out, and wire fees
+- Mutual fund commissions
+- Custodying the RIA at IBKR while keeping a separate B/D
+- Transition support and ACAT reimbursement
+- Exit terms
+- Automatic advisory-fee billing
+- Integrations with eMoney, RightCapital, Orion, and Black Diamond
+- Whether annuity assets placed through DPL can be billed
+
+**Next steps Declan offered:** a TWS platform demo, and help with the application. The 9/23 inquiry email said "under $12M"; tell him the actual figure is about $40M combined.
+
 **Axos Advisor Services**
 - AUM minimum: **None published** (confirmed via third-party guides).
 - Known fees: **$45 per broker-assisted trade**; **$62.50 per alternative-asset position per quarter** (confirmed). Other fees are in its "Standard Fee Schedule." We couldn't extract the PDF, so ask for it.
@@ -174,7 +222,7 @@ Legend: **Confirmed** = in a public source (linked in Sources). **Not public** =
 |---|---|---|---|
 | **Schwab Advisor Services** | 877-687-4085 (contact page) | **Michael Goldman**, Business Development Associate: **407-608-9339**, michael.goldman@schwab.com. Schwab's locator assigned him for zip 11232 and $0–12M. | Form sent to Michael Goldman |
 | **Altruist** | 888-510-4660 (advisor support, Mon–Fri 9am–8pm ET) | Sales is by form only. Ask support to route you to sales. | Form sent |
-| **Interactive Brokers** | +1 475 334 4660 | **Declan Mulholland**, Sales Representative (New York), dmulholland@interactivebrokers.com. Manager: Michael J. Domka, Managing Director, Sales, +1 312 542 6924. | Email sent to Declan |
+| **Interactive Brokers** | +1 475 334 4660 | **Declan Mulholland**, Sales Representative (New York), dmulholland@interactivebrokers.com. Manager: Michael J. Domka, Managing Director, Sales, +1 312 542 6924. | Emailed 9/23. **Spoke by phone 9/23; he sent a platform summary (see §3).** Next: demo, and send him the open questions. |
 | **Axos Advisor Services** | 866-776-0218 | sales@axosadvisorservices.com | Email sent |
 | **TradePMR** | 888-723-3767 | Not published | Form sent |
 | **Betterment Advisor Solutions** | 646-809-4181 (sales) | Not published | Form sent |
