@@ -106,7 +106,8 @@ Legend: **Confirmed** = in a public source (linked). **Not public** = you have t
 
 **Raymond James (RIA & Custody Services)**
 - Model: Can custody your RIA and clear your B/D business on one platform (confirmed). Skews to larger firms: new joiners average ~$600M+.
-- Grid / minimums: **Not public.**
+- Minimum: **$100M in AUM**, confirmed by Alan Brum (business development consultant covering NY) on a call with Ardis in late September 2026. Grid: **not public.**
+- **Result:** not a fit at about $40M combined AUM. Revisit only if a multi-advisor combination gets you past $100M.
 
 **Valmark Securities / Valmark Advisers**
 - Model: The go-to B/D for **insurance-heavy "multi-disciplinary"** practices (life insurance + investments), with 100+ member firms. Best if you're a big life/estate-planning producer.
