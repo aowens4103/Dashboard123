@@ -63,12 +63,52 @@ Legend: **Confirmed** = in a public source (linked). **Not public** = you have t
 - Minimums / annual fees: **Not public.**
 
 **M.S. Howells & Co.**
-- Model: Friendly B/D. **No override on fee-based business** through your hybrid RIA, and "minimal fees" (confirmed).
-- Grid / minimums: **Not public.**
+- Model: Friendly B/D. **No override on fee-based business** through your hybrid RIA, and "minimal fees" (confirmed). Clears through **Pershing**.
+- **Payout grid, published** in the "MSH Payout Grid 25_06" PDF on its [marketing-materials page](https://www.mshowells.com/hybrid-ria-marketing-materials) (confirmed):
+
+  | Annual B/D branch production | Payout |
+  |---|---|
+  | Under $150,000 | Negotiated |
+  | $150,000–$249,999 | 80% |
+  | $250,000–$499,999 | 82.5% |
+  | $500,000–$749,999 | 85% |
+  | $750,000+ | Negotiated |
+  | **Independent RIA business** | **100% (no override)** |
+
+  The rate is reviewed annually, with 30 days' notice of any change. Pay is twice a month.
+- **Fixed fees per registered rep** (confirmed):
+  - Compliance/platform: **$300 a month**. Covers FINRA branch fees, continuing education, AML and cybersecurity training, the annual compliance meeting, email/social/website review, and MyRepChat.
+  - E&O / fidelity bond: **$350 a month**.
+  - Registered assistant: $125 a month. Non-registered assistant: $50 a month.
+  - Not included: state registrations, the FINRA annual assessment (about $300 per person, billed in April), a branch audit every 3 years ($1,000 plus travel), Albridge reporting, exams, and fines.
+  - **Total: about $7,800 a year per rep before extras, or about $8,500–$9,000 all-in.** For two reps, about $17,000–$18,000 a year.
+- **Ticket charges** ("MSH Ticket Charges 25_10"; deducted from your payout) (confirmed):
+
+  | Trade | Charge |
+  |---|---|
+  | Equities | $0.0075/share, $25 minimum per ticket |
+  | Corporate/muni bonds | $30/ticket plus $1 per $1,000 of face value |
+  | Government bonds, Treasuries, CDs | $30/ticket |
+  | Mutual funds/UITs, purchases and sales | $30 per transaction |
+  | Mutual funds/UITs, exchanges | $25 per transaction |
+  | Options | $25/ticket plus $1/contract |
+
+- **Break-even:** at an 80% payout, each rep needs about **$22k a year** in B/D commissions just to cover the fixed fees.
+- Contact: **Katrina Santa Maria, 480-563-2016**, kat@mshowells.com (emailed 9/23). New York office: 646-330-5949.
 
 **Private Client Services (PCS)**
-- Model: RIA-friendly B/D plus its own SEC RIA. It is recruiting by **dually registering hybrid RIAs/IARs**, and markets "low fees and ticket charges, high payouts" and an open-architecture platform (confirmed).
-- Grid / minimums: **Not public.**
+- Model: RIA-friendly B/D plus its own SEC RIA. It is recruiting by **dually registering hybrid RIAs/IARs**, and markets "low fees and ticket charges, high payouts" and an open-architecture platform (confirmed). Clears through **Pershing**. $1.38B in wrap-program assets (12/31/2025).
+- **Payout: not published.** Its FAQ says the payout is "extremely competitive" and to call Steve Higdon. Its compensation page says the payout is custom, proposed after it reviews your business mix and goals, and that it doesn't use high GDC minimums (confirmed).
+- **Fixed fees**, from its [joining FAQ](https://pcsbd.net/joining-pcs/qa/) (confirmed):
+  - **No monthly or annual affiliation fee.** PCS runs "on our portion of the gross dealer concession."
+  - E&O: **$1,600 a year** for $1.5M of coverage per rep with a $5,000 deductible. That's the 2022 figure; ask for the current premium.
+  - Audit fee: **$250 a year**, charged at Q4 registration renewal.
+  - **Total: about $1,850 a year per rep**, plus FINRA and state fees. That's roughly $6,000 a year less per rep than M.S. Howells.
+- Rep ticket charges: **not published**. The Pershing client fee schedule on its disclosures page covers client-side fees only.
+- You can keep your own RIA or use PCS Advisors (its SEC RIA). Business is done under your own name. Pay frequency: the FAQ says twice a month, the compensation page says weekly.
+- **Trade-off against M.S. Howells:** PCS takes its cut from commissions rather than fixed fees, so expect a **lower payout percentage** but much lower fixed costs. With low or occasional commission revenue, PCS likely nets you more. At higher production, M.S. Howells' published grid can win. You need PCS's actual rate to compare.
+- Contact: **Steve Higdon**, Chief Development Officer, **502-797-5207** (Join Us page) or 502-451-0600 (FAQ). Form submitted 9/23.
+- Ask: your payout rate and whether trails pay the same; any rep ticket charges or clearing pass-throughs; the current E&O premium; any production minimum; any fee or override on your outside RIA; changes under Rule 3290.
 
 **Geneos Wealth Management**
 - Model: Hybrid B/D + RIA (~$9–10B). **You may keep your own RIA or use Geneos's.** Custody options include Pershing, NFS/Fidelity, Schwab, and others (confirmed).
