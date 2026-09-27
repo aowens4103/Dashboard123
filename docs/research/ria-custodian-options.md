@@ -96,7 +96,8 @@ Legend: **Confirmed** = in a public source (linked in Sources). **Not public** =
 - Best fit: $100M+ firms with complex or alternative assets. Many friendly B/Ds also clear through Pershing, so ask whether your B/D and RIA accounts could share a platform.
 
 **Raymond James (RIA & Custody Services)**
-- AUM minimum: **not published**, but new joiners average about **$600M+**. Its separate RJFS independent-RIA platform raised its minimum from $30M to $50M (confirmed).
+- AUM minimum: **$100M**, confirmed by Alan Brum on a call with Ardis (late September 2026). New joiners average about **$600M+**. Its separate RJFS independent-RIA platform raised its minimum from $30M to $50M (confirmed).
+- **Result for Madison Planning Associates:** not a fit at about $40M combined AUM. Revisit only if a multi-advisor combination gets you past $100M.
 - It can custody your RIA and clear your B/D business on one platform.
 - You already emailed **Alan Brum** (business development consultant covering NY) on 9/23 about the B/D side. Ask him about RCS custody pricing in the same thread.
 
@@ -126,7 +127,7 @@ Legend: **Confirmed** = in a public source (linked in Sources). **Not public** =
 | SEI | Not public | From 0.10% | about $20,000 or less | Confirmed starting rate |
 | Fidelity | about $50M–$100M | Relationship-based. Last public: $2,500/quarter under $15M | $10,000 if the old fee still applies | Old figure; confirm |
 | BNY Pershing | about $100M | Subscription or variable, not public | Ask | Not public |
-| Raymond James RCS | Large firms (about $600M average) | Not public | Ask | Not public |
+| Raymond James RCS | **$100M** (per Alan Brum call) | Not public | Not a fit under $100M | Confirmed by call |
 | Goldman Sachs Custody | Not public | Not public | Ask | Not public |
 
 ---
@@ -180,7 +181,7 @@ Legend: **Confirmed** = in a public source (linked in Sources). **Not public** =
 | **SEI Private Trust Company** | 800-734-1003 | Not published | Form sent |
 | **BNY Pershing** | 800-445-4467 · 201-413-3333 | Not published | Form sent |
 | **Fidelity** | None published on its advisor contact pages | Assigned after the form | Form sent |
-| **Raymond James RCS** | 732-266-7390 | **Alan Brum**, Business Development Consultant (NY/NJ/PA/CT/MA and others), alan.brum@raymondjames.com | B/D email sent. Ask about custody on the same thread. |
+| **Raymond James RCS** | 732-266-7390 | **Alan Brum**, Business Development Consultant (NY/NJ/PA/CT/MA and others), alan.brum@raymondjames.com | Emailed 9/23. He replied twice, then **you spoke by phone: the platform requires $100M**. Parked until AUM reaches $100M. |
 | **LPL Financial** | None published; recruiter form only | Assigned by region | Recruiter form sent (B/D). Ask about custody when they call. |
 | **Goldman Sachs Custody Solutions** | 833-983-4727 · 888-230-5635 (both listed on its RIA contact page) | Not published | Skipped. Its form's lowest AUM choice is $100–250M, which suggests about a $100M floor. |
 
